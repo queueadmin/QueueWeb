@@ -1,0 +1,63 @@
+.App {
+ padding-top: 43px; 
+}
+
+.App .navbar-brand {
+ font-weight: bold;
+ position:relative;
+ vertical-align:bottom;
+ #padding-top:5px;
+}
+.App .navbar-collapse{
+ margin-top: 15px;
+}
+
+.App1 {
+	position:fixed;
+	#bottom:0;
+	height:64px;
+	margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+	padding-left:calc(50% - 50vw);
+	padding-right:0px;
+}
+
+
+
+
+/* Add a black color to all navbar links */
+.navbar li a, .navbar .navbar-brand { 
+    color: #000 !important;
+}
+
+/* On hover, the links will turn gray */
+.navbar-nav li a:hover {
+    color: #d5d5d5 !important;
+}
+
+/* The active link */
+.navbar-nav li.active a {
+    color: #4472c4 !important;
+    background-color:transparent  !important;
+	border-bottom: 2px solid #4472c4;
+    padding-bottom:5px;
+	transition: .5s ease,.2s linear;
+}
+
+/* Remove border color from the collapsible button */
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+/* Dropdown */
+.open .dropdown-toggle {
+    color: #fff ;
+    #background-color: #555 !important;
+	padding-top:10px;
+}
+
+/* Dropdown links */
+.dropdown-menu li a {
+    color: #000 !important;
+}
+

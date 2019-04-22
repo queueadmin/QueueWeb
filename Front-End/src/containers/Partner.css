@@ -1,0 +1,142 @@
+. {
+ text-align: center;
+ font-family: Helvetica, sans-serif;
+}
+
+
+body, html {
+    height: 100%;
+	 
+}
+/* ----------------------PROFILE--------------------- */
+.custom-container {
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+	padding-left:0px;
+	padding-right:0px;
+}
+
+
+
+.color-hero-1{
+	color:green;
+}
+.color-hero-2{
+	color:#4472c4;
+}
+.Partnerprofile {
+	padding:20px;
+	#background-color:#f0f0f0;
+	#background-color:#3f4d63;
+	background-color:inherit;
+	box-shadow: 0 -8px -10px -1px rgba(0, 0, 0, 0.2);
+	
+}
+
+.sectioncontent{
+  min-height:50vh;
+  align-items:center;
+  justify-content: center;
+  display: flex;
+}
+
+/* Four columns side by side */
+.Partnerprofile .column {
+    float: left;
+    width: 25%;
+    margin-bottom: 16px;
+    padding: 0px 8px;	
+}
+.news .logo{
+	float:left;
+	position:absolute;
+	left:0;
+	top:0;
+}
+.Partnerprofile .card {
+    box-shadow: 0 4px 10px 1px rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+	background-color: #fdfdfd;
+    text-align: center;
+	border-radius: 20px 20px 20px 20px;
+	#padding-bottom:30px;
+	padding-top: 0px;
+	overflow:hidden;
+}
+.news a:link {
+	text-decoration:none;
+	color:#000;
+}
+.news h3{
+	font-size: 20px;
+}
+.news .bottom{
+	white-space: nowrap; 
+	overflow: hidden;
+	text-overflow: ellipsis;
+	width:50%;
+	float: left;
+		padding:10px 5px 5px 5px;
+}
+.news .forward{
+	padding:5px 10px 5px 5px;
+	float:right;
+	
+	
+}
+.Modal img {
+	height:500px;
+	width:auto;
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%); /* make all photos black and white */
+	opacity: 0.8;
+}
+.modal-dialog .titlepicture{
+	height:420px;
+	width:auto;
+	overflow:hidden;
+}
+.modal-content{
+	box-shadow: 0 4px 10px 1px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    margin: auto;
+	background-color: #fdfdfd;
+    text-align: center;
+	border-radius: 20px 20px 20px 20px;
+	#padding-bottom:30px;
+	padding-top: 0px;
+	overflow:hidden;
+}
+.modal-content h1{
+	font-size: 30px;
+}
+.Partnerprofile .card img{
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%); /* make all photos black and white */
+	
+	opacity: 0.8;
+}
+.Partnerprofile .card h1 {
+	font-size: 20px;
+}
+
+.Partnerprofile .title {
+    color: grey;
+    font-size: 15px;
+}
+
+
+
+.Partnerprofile button a {
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+}
+
+.Partnerprofile button:hover, a:hover {
+    opacity: 0.7;
+}
+.Partnerprofile .card h1 {
+    font-size: 14px;
+}

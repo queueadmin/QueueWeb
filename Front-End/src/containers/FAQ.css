@@ -1,0 +1,16 @@
+.FAQ {
+ #text-align: center;
+ font-family: Helvetica, sans-serif;
+ 
+}
+
+body, html {
+    height: 100%;
+	
+}
+.FAQ .faqpagetitle {
+	letter-spacing: 2px;
+	font-family: "Gill Sans MT", sans-serif;
+	font-weight: 900;
+}
+

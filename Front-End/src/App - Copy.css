@@ -1,0 +1,69 @@
+.App {
+ margin-top: 50px; 
+}
+
+.App .navbar-brand {
+ font-weight: bold;
+ position:relative;
+ vertical-align:bottom;
+ #padding-top:5px;
+}
+.App .navbar-collapse{
+ margin-top: 15px;
+}
+
+
+.navbar {
+	position: top;
+    margin-top:0px;
+	#margin-bottom: 10px;
+    background-color: #fff;
+    border: 0;
+    font-size: 15px !important;
+    letter-spacing: 4px;
+    opacity: 1;
+	padding-bottom:5px;
+	#border-bottom: 1px solid grey;
+	box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 .2px .5px 0 rgba(0, 0, 0, 0.19);
+}
+
+.navbar-toggle{
+	margin-top:17px;
+}
+
+/* Add a black color to all navbar links */
+.navbar li a, .navbar .navbar-brand { 
+    color: #000 !important;
+}
+
+/* On hover, the links will turn gray */
+.navbar-nav li a:hover {
+    color: #d5d5d5 !important;
+}
+
+/* The active link */
+.navbar-nav li.active a {
+    color: #4472c4 !important;
+    background-color:transparent  !important;
+	border-bottom: 2px solid #4472c4;
+    padding-bottom:5px;
+	transition: .5s ease,.2s linear;
+}
+
+/* Remove border color from the collapsible button */
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+/* Dropdown */
+.open .dropdown-toggle {
+    color: #fff ;
+    #background-color: #555 !important;
+	padding-top:10px;
+}
+
+/* Dropdown links */
+.dropdown-menu li a {
+    color: #000 !important;
+}
+

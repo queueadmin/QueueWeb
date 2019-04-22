@@ -1,0 +1,145 @@
+.Home .lander {
+ padding: 80px 0;
+ text-align: center;
+}
+.Home .container{
+	margin: auto;
+	align-items:center;
+}
+.Home .lander h1 {
+ font-family: "Open Sans", sans-serif;
+ font-weight: 600;
+}
+.Home .lander p {
+ color: #999;
+}
+.Home .notes h4 {
+ font-family: "Open Sans", sans-serif;
+ font-weight: 600;
+ overflow: hidden;
+ line-height: 1.5;
+ white-space: nowrap;
+ text-overflow: ellipsis;
+}
+.Home .notes p {
+ color: #666;
+}
+
+.Home .notes p {
+ color: #666;
+}
+
+.Home .pagetitle {
+	letter-spacing: 2px;
+	font-family: "Gill Sans MT", sans-serif;
+	font-weight: 900;
+	
+}
+
+.Home .panel{
+	overflow:hidden;
+	#color: #444;
+	background-color: #eee;
+	#cursor: pointer;
+	#padding: 5px;
+	width: 100%;
+	border: none;
+	text-align: left;
+	outline: none;
+	font-size: 15px;
+}
+.Home .panel a:link{
+	text-decoration: none;
+}
+.Home .panel.body{
+	padding: 80px;
+	
+}
+
+.Home .panelmap img {
+	position: relative;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	border-radius:100%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	
+}
+
+.Home .progress-bar{
+	position: relative;
+	height: 20px;
+	width: 100%;
+	border-radius: 50px 50px 50px 50px;
+	border: 1px solid #333;
+	background:transparent;
+}
+
+.Home .progress-text{
+	left: 0px;
+    width: 100%;
+    color:#000;
+    position:absolute;   
+}
+
+.Home .filler {
+	background: #1DA598;
+	height: 100%;
+	border-radius: inherit;
+	transition: width .2s ease-in;
+}
+
+.Home .panel .label {
+	font-size: 15px;
+	letter-spacing: 1px;
+}
+
+.Home .panelcontainer {
+	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	letter-spacing: 1px;
+	padding: 20px;
+	
+}	
+
+
+.Home .panelheaderoverlay {
+  position: absolute;
+  bottom: 100%;
+  left: 90%;
+  right: 0;
+  background-color: inherit;
+  overflow: hidden;
+  width: 5%;
+  height:0;
+  transition: .3s ease;
+  
+}
+
+.container {
+  position: relative;
+}
+
+.Home .panel:hover{
+	box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.2);
+	transition: .2s ease;
+	
+}
+
+.Home .panel .PanelTitle:hover .panelheaderoverlay {
+  bottom: 0;
+  height: 100%;
+  
+}
+.Home .panel .downarrow {
+  white-space: nowrap; 
+  color: inherit;
+  font-size: inherit;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+

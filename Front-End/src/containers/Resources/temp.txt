@@ -1,0 +1,5 @@
+<div class="container-fluid bg-1 text-center">
+  <h3 class="margin">Chien Dat NGUYEN DINH</h3>
+  <img src="Resources/profile.jpg" class="img-responsive img-circle margin" style="display:inline" alt="Profile" width="350" height="350">
+  <h3>BScE.E(Biomedical option),MScE.E(In progress)</h3>
+</div>
